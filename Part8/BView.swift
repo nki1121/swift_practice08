@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct BView: View {
+    @Binding var isShowBView: Bool
+    
     var body: some View {
         ZStack {
             Color(.orange)
