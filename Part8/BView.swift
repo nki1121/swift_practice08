@@ -30,9 +30,3 @@ struct BView: View {
         }
     }
 }
-
-struct BView_Previews: PreviewProvider {
-    static var previews: some View {
-        BView()
-    }
-}
